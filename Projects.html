@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div id="logo-container">
+            <img src="album cover.jpg" alt="Your Logo" id="logo">
+        </div>
+        <div id="title-container">
+            <h1>Portfolio</h1>
+        </div>
+
+
+        <nav class="open">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Description.html">Description</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Social.html">Social</a></li>
+                <li><a href="Product.html">Product</a></li>
+            </ul>
+        </nav>
+        
+
+        <button id="menu-button" onclick="toggleMenu()">Menu</button>
+
+        
+    </header>
+
+    <main>
+        <section id="projects">
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h2>Project 1</h2>
+                <p>Description of Project 1.</p>
+                <!-- Social Media Share Buttons -->
+                <div class="social-share">
+                    <button onclick="shareOnFacebook()">Share on Facebook</button>
+                    <button onclick="shareOnTwitter()">Share on Twitter</button>
+                    <button onclick="shareOnInstagram()">Share on Instagram</button>
+                </div>
+            </div>
+            <!-- Repeat for other projects -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ludovic Anderson. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
